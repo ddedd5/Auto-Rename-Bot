@@ -10,15 +10,15 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "8065708484:AAHoS85tlh1fZoKh5QI1LVYndxWKRzVPu-I") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","Yato")     
-    DB_URL  = os.environ.get("DB_URL","mongodb+srv://skim40981:fgEtfG54JWvR5hR0@cluster0.ylt2goz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DB_NAME = os.environ.get("DB_NAME","thunder")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://skim40981:OfN9hlkvdPB6puqr@cluster0.kufeyss.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     PORT = os.environ.get("PORT", "8080")
  
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/29a3acbbab9de5f45a5fe.jpg")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '2108966088').split()]
-    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'codeflix_bots').split(',')
+    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', '-1002607148426').split(',')
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002736281938"))
     DUMP_CHANNEL = int(os.environ.get("DUMP_CHANNEL", "-1002512069220"))
     
