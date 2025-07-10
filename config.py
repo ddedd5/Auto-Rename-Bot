@@ -11,7 +11,7 @@ class Config(object):
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","thunder")     
-    DB_URL  = os.environ.get("DB_URL","mongodb+srv://skim40981:OfN9hlkvdPB6puqr@cluster0.kufeyss.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://skim40981:fgEtfG54JWvR5hR0@cluster0.ylt2goz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     PORT = os.environ.get("PORT", "8080")
  
     # other configs
